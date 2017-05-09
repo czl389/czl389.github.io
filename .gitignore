@@ -1,6 +1,7 @@
-_site
-.sass-cache
-.idea
-resumecard.iml
-/*.iml
-Gemfile.lock
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+public
+static/figures
+blogdown
