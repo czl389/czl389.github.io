@@ -1,53 +1,32 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: The résumé of Some Developer
+author:
+  address:
+      street: 4 Your Street
+      town: Faketown
+      postcode: NG11 9BC
+      country: United Kingdom
+  email: anybody@gmail.com
+  name: Some Developer
+  title: CSS Ninja and html Rockstar
+  twitter_username: nternetinspired
+  github_username:  nternetinspired
+  phone: +44 000 000 0000
+  repository: https://github.com/nternetinspired/jekyll-resume
+  website: https://github.com/nternetinspired/jekyll-resume
+description: > # this means to ignore newlines until "baseurl:"
+  Powered by Jekyll, and Github Pages ready, Jekyll-cv is a lightweight and lightning-fast
+  html résumé making machine from @nternetinspired. Because web developers shouldn't
+  showcase their skills on bits of dead tree.
+baseurl: "/jekyll-resume/" # the subpath of your site, e.g. /blog/
+url: "http://nternetinspired.github.io" # the base hostname & protocol for your site
+
+# Compress html
+compress_html:
+  clippings: ['!--', html, head, title, base, link, meta, style, body, article, section, nav, aside, h1, h2, h3, h4, h5, h6, hgroup, header, footer, address, p, hr, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, main, div, table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th]
+  endings: [html, head, body, li, dt, dd, p, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
 
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: _sass
-  style: compressed
-
-# Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Homer J. Simpson"
-resume_title:                   "Nuclear Safety Inspector"
-resume_contact_email:
-  "homerjsimpson@youremailaddress.com"
-resume_header_contact_info: "742 Evergreen Terrace, Springfield | 555-7334 | homerjsimpson@youremailaddress.com"
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>"
-
-# use "yes" to display the email contact button,
-# "no" to display an "I'm not looking for work" message,
-# or remove the resume_looking_for_work option entirely
-# to leave blank
-resume_looking_for_work:        "yes"
-
-# Decide which sections to use
-# comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-
-# Resume social links
-# uncomment the options you wish to display, and add your own URL
-resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-resume_print_social_links:      true
-
-# Design settings
-resume_theme:                   default
-
-# Note: when editing locally, remember to restart
-# your Jekyll server when you edit this file. Changes
-# to _config.yml are only recognized when the server starts
+    style: :compressed
